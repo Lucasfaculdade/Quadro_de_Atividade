@@ -6,17 +6,21 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BaseboardComponent } from './components/baseboard/baseboard.component';
 import { NotesComponent } from './components/text_box/notes/notes.component';
+import { FormsModule } from '@angular/forms';
+import { ActivityWallComponent } from './components/activity-wall/activity-wall.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     BaseboardComponent,
-    NotesComponent
+    NotesComponent,
+    ActivityWallComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

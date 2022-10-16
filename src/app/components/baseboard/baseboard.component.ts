@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./baseboard.component.css']
 })
 export class BaseboardComponent implements OnInit {
-
+  
+ 
   constructor() { }
 
   ngOnInit(): void {
